@@ -698,6 +698,18 @@ h1 {
   transform: none;
 }
 
+.formMessage {
+  margin: 4px 0 0;
+  color: #9dfff1;
+  font-size: 0.92rem;
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.formMessage.error {
+  color: #ffd13f;
+}
+
 .footerTicker {
   grid-column: 1 / -1;
   display: flex;
